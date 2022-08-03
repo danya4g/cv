@@ -2,42 +2,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Daniil CV</title>
+    <link href="css.css" rel="stylesheet" />
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img src="avatar.jpeg" width="200" alt="IMG.here">
+    <div class="container">
+    <div class="info">
+             <img src="avatar.jpeg" alt="IMG.here" class="avatar" />
             </td>
-        <h1>Даниил Шелепин</h1>
-        <p> <em> <strong>Специалист технической поддержки, Тестировщик ПО </strong>  </em></p>     
-        <p>Изучаю верстку, <strong>HTML</strong>, <strong>CSS</strong>, JavaScript, тестирование, IT технологии. </p>
+            <td>
+        <h2>Danil Shelepin</h2>
+        <p><strong>QA Engineer </strong></p>     
+        <p><strong>QA</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> ,<strong>Postman</strong>, <strong>Docker</strong></p>
+    </div>
     
-        </td>
-        </tr>
-    </table>
 <hr>
-    <h2>Мои социальные сети</h2>
-<ul type="square">
-    <li><a target="_blank" href="https://instagram.com/danya4g"> Instagram</a> </li>  
-    <li><a target="_blank" href="https://vk.com/danya4g"> VK</a> </li>
-    <li><a target="_blank" href="https://telegram.org/danya4g"> Telegram </a> </li>
-</ul>
+
+
+    <h4>Social network links</h4>
+
+    <a target="_blank" href="https://instagram.com/danya4g"> Instagram</a>   
+    <a target="_blank" href="https://vk.com/danya4g"> VK</a>
+    <a target="_blank" href="https://telegram.org/danya4g"> Telegram </a>
+    <a target="_blank" href="https://github.com/danya4g"> GitHub </a>  
+
+</div>
+
  <hr>
-<h2>Мои хобби</h2>
+
+ <div class="card bg-yellow">
+<h2>My hobbies</h2>
 <ol>
-    <li>Скейтбординг</li>   
-    <li>Изучение Веб-тестирования</li>
-    <li>Путешествия</li>
-    <li>Изучение JS</li>    <li>Чтение литературы</li>
-</ol>
-<hr>
-<h2>Опыт работы</h2>
-<table border="2">
+    <li>Skateboarding</li>   
+    <li>QA learning</li>
+    <li>Travelling</li>
+    <li>JS learning</li>   
+    <li>Books reading</li>
+    </ol>
+</div>
+
+<div class="card bg-green">
+
+<h2>My working experience</h2>
+<table class="table">
     <tr>
         <th>Компания</th>
         <th>Должность</th>
         <th>Год</th>
     </tr>
+    <tr>
+        <td>Mprofiko</td>
+        <td>QA Engineer</td>
+        <td>2022-current time</td>
+    </tr>
+</table>
+
+<h2>Previous work experience</h2>
+    <table border="2">
+        <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
     <tr>
         <td>Holiday Inn Express</td>
         <td>Front Office Supervisor</td>
@@ -54,11 +79,14 @@
         <td>2014-2019</td>
     </tr>
 </table>
+</div>
 
-<hr>
+<div class="card bg-red">
 
 <h2>Мои Youtube работы</h2>
 <a href="YouTube.html">Посмотреть список</a>
+</div>
+
 
 <h3>Портфолио</h3>
 <a href="GitHub.html">Перейти</a>
@@ -75,8 +103,10 @@
 <br>
 <textarea name="" id="" cols="15" rows="5"></textarea>
 <br>
+
 <Input type="submit" value="Связаться"></Input>
-<br>
-</form>
+</form> 
+
+        <div style="margin-bottom: 500px; ;"></div>
     </body>
 </html>
